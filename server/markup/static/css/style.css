@@ -550,35 +550,35 @@ textarea {
 @font-face {
   font-family: 'Poppins';
   font-weight: 400;
-  font-display: swrap;
+  font-display: swap;
   src: url("../../static/fonts/Poppinsregular.woff2") format("woff2"), url("../../static/fonts/Poppinsregular.woff") format("woff"), url("../../static/fonts/Poppinsregular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Poppins';
   font-weight: 500;
-  font-display: swrap;
+  font-display: swap;
   src: url("../../static/fonts/Poppinsmedium.woff2") format("woff2"), url("../../static/fonts/Poppinsmedium.woff") format("woff"), url("../../static/fonts/Poppinsmedium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Poppins';
   font-weight: 700;
-  font-display: swrap;
+  font-display: swap;
   src: url("../../static/fonts/Poppinsbold.woff2") format("woff2"), url("../../static/fonts/Poppinsbold.woff") format("woff"), url("../../static/fonts/Poppinsbold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Roboto';
   font-weight: 400;
-  font-display: swrap;
+  font-display: swap;
   src: url("../../static/fonts/Roboto.woff2") format("woff2"), url("../../static/fonts/Roboto.woff") format("woff"), url("../../static/fonts/Roboto.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Roboto';
   font-weight: 500;
-  font-display: swrap;
+  font-display: swap;
   src: url("../../static/fonts/Robotomedium.woff2") format("woff2"), url("../../static/fonts/Robotomedium.woff") format("woff"), url("../../static/fonts/Robotomedium.ttf") format("truetype");
 }
 
