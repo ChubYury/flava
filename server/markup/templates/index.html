@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <link rel="stylesheet" type="text/css" media="all" href="../static/css/style.css" />
+  <link rel="icon" href='../static/img/favicon-fl.png' type="image/x-icon" />
+  <title>Flava</title>
+
+</head>
+
+<body>
+  <header class="head">
+    <div class="container">
+      <div class="head__wrap">
+        <div class="logo">
+          <img src="../static/svg/logo-fl.svg" class="logo__img">
+        </div>
+        <!-- /.logo -->
+        <nav class="navigation">
+          <ul class="navigation__list" id="q">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">HOME</a>
+            </li>
+            <!-- /.navigation__item -->
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">LINE UP</a>
+            </li>
+            <!-- /.navigation__item -->
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">TICKET</a>
+            </li>
+            <!-- /.navigation__item -->
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">BE PART OF</a>
+            </li>
+            <!-- /.navigation__item -->
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">ABOUT</a>
+            </li>
+            <!-- /.navigation__item -->
+          </ul>
+          <!-- /.navigation__list -->
+        </nav>
+        <!-- /.navigation -->
+        <button class="btn btn-create">CREATE ACCOUNT</button>
+        <!-- /.btn-create -->
+        <div class="menu__btn" id='js-menu-trigger'>
+          <span class="menu__btn--line first"></span>
+          <span class="menu__btn--line first-ex"></span>
+          <span class="menu__btn--line second"></span>
+          <span class="menu__btn--line third"></span>
+          <span class="menu__btn--line fourth"></span>
+        </div>
+        <!-- /.menu__btn -->
+      </div>
+      <!-- /.head__wrap -->
+    </div>
+    <!-- /.container -->
+  </header>
+  <!-- /.head -->
+  <main>
+    <section class="intro">
+      <div class="video">
+        <video id='js-video' class="video__media" preload="auto" muted="muted" loop>
+          <source src='../static/video/video1.mp4' type='video/mp4'>
+        </video>
+        <img class=" video__cover" src="../static/img/cover.jpg" alt="cover">
+        <!-- /.video__cover -->
+      </div>
+      <!-- /.video -->
+      <div class="intro-info " id="js-pause">
+        <div class="container">
+          <div class="intro-info__wrap">
+            <h1 class="intro-info__title">ALL ABOUT MUSIC - ITS ALL HERE</h1>
+            <!-- /.intro-info__title -->
+            <p class="intro-info__text">Turn on the feeling with all music event </p>
+            <!-- /.intro-info__text -->
+            <button class="btn-play" id="js-btn-play">
+              <img class="btn-play__icon" src=" ../static/svg/icon-btn-play.svg" alt="">
+            </button>
+            <!-- /.btn-play -->
+          </div>
+          <!-- /.intro-info__wrap -->
+
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.intro-info -->
+    </section>
+    <!-- /.intro -->
+
+    <section class="timer">
+      <div class="container">
+        <div class="timer__wrap">
+          <h2 class="timer__title title2">MUSIC FESTIVAL START IN</h2>
+          <!-- /.timer__title -->
+          <div class="timer__items">
+            <div class="timer__item timer__days">00</div>
+            <div class="timer__item timer__hours">00</div>
+            <div class="timer__item timer__minutes">00</div>
+            <div class="timer__item timer__seconds">00</div>
+          </div>
+          <!-- /.timer__items -->
+          <button class="timer__btn btn2">BUY TICKET</button>
+        </div>
+        <!-- /.timer__wrap -->
+      </div>
+      <!-- /.contaner -->
+    </section>
+    <!-- /.timer -->
+    <section class="mus-slider">
+      <div class="container">
+        <h2 class="mus-slider__title title2">THE LINEUP OF FLAFA</h2>
+        <!-- /.location__title -->
+        <div class="slider multiple-items">
+          <div class="slider__item">
+            <img class='slider__foto' src='../static/img/slide/1.jpg'>
+            <!-- /.card__icon -->
+            <p class="slider__name">RAYUL</p>
+            <!-- /.slider__name -->
+          </div>
+          <!-- /.slider__item -->
+          <div class="slider__item">
+            <img class='slider__foto' src='../static/img/slide/2.jpg'>
+            <!-- /.card__icon -->
+            <p class="slider__name">ATIKH BANA</p>
+            <!-- /.slider__name -->
+          </div>
+          <!-- /.slider__item -->
+          <div class="slider__item">
+            <img class='slider__foto' src='../static/img/slide/3.jpg'>
+            <!-- /.card__icon -->
+            <p class="slider__name">RAFAELLA</p>
+            <!-- /.slider__name -->
+          </div>
+          <!-- /.slider__item -->
+          <div class="slider__item">
+            <img class='slider__foto' src='../static/img/slide/4.jpg'>
+            <!-- /.card__icon -->
+            <p class="slider__name">ED SHEERAN</p>
+            <!-- /.slider__name -->
+          </div>
+          <!-- /.slider__item -->
+          <div class="slider__item">
+            <img class='slider__foto' src='../static/img/slide/5.jpg'>
+            <!-- /.card__icon -->
+            <p class="slider__name">DAVID GUETTA</p>
+            <!-- /.slider__name -->
+          </div>
+          <!-- /.slider__item -->
+          <div class="slider__item">
+            <img class='slider__foto' src='../static/img/slide/6.jpg'>
+            <!-- /.card__icon -->
+            <p class="slider__name">J BALVIN</p>
+            <!-- /.slider__name -->
+          </div>
+          <!-- /.slider__item -->
+        </div>
+        <!-- /.slider -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.mus-slider -->
+    <section class="sp-slider">
+      <div class="container">
+        <h2 class="sp-slider__title title2">SPONSORS</h2>
+        <!-- /.location__title -->
+        <div class="sp-slider__items js-sp-slider">
+          <div class="sp-slider__item">
+            <a class="sp-slider__link" href="#">🎥 VSTUDIO</a>
+            <!-- /.sp-slider__link -->
+          </div>
+          <!-- /.slider__item -->
+          <div class="sp-slider__item">
+            <a class="sp-slider__link" href="#">🍕PizzaHOT</a>
+            <!-- /.sp-slider__link -->
+          </div>
+          <!-- /.slider__item -->
+          <div class="sp-slider__item">
+            <a class="sp-slider__link" href="#">🚄Trainesia</a>
+            <!-- /.sp-slider__link -->
+          </div>
+          <!-- /.slider__item -->
+          <div class="sp-slider__item">
+            <a class="sp-slider__link" href="#">🔥Firevent</a>
+            <!-- /.sp-slider__link -->
+          </div>
+          <!-- /.slider__item -->
+          <div class="sp-slider__item">
+            <a class="sp-slider__link" href="#">💈Baberock</a>
+            <!-- /.sp-slider__link -->
+          </div>
+          <!-- /.slider__item -->
+          <div class="sp-slider__item">
+            <a class="sp-slider__link" href="#">🐊Crocoday</a>
+            <!-- /.sp-slider__link -->
+          </div>
+          <!-- /.slider__item -->
+        </div>
+        <!-- /.sp-slider__items -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.sp--slider -->
+
+    <section class="form-fb">
+      <div class="container">
+        <div class="form-fb__wrap">
+          <h2 class="form-fb__title title2">FIRST COME, FIRST SERVED</h2>
+          <!-- /.form-fb__title -->
+          <p class="form-fb__subtitle">1,000 people who leave a request
+            will receive a gift from FLAVA</p>
+          <!-- /.form-fb__subtitle -->
+          <form class="form-big js-form-ajax" data-action="https://httpbin.org/post" data-method="POST"
+            id="js-form-ajax">
+
+            <input name="hidden-info" type="hidden" value="test value">
+            <!-- /.form-big__name -->
+            <div class="field">
+              <input class="form-big__name dim" name="name" type="text" data-rule="required|name"
+                placeholder="Your name">
+              <!-- /.form-big__name -->
+            </div>
+            <!-- /.field -->
+            <div class="field">
+              <input class="form-big__email dim" name="email" type="email" data-rule="required|email"
+                placeholder="Your Email">
+              <!-- /.form-big__email -->
+            </div>
+            <!-- /.field -->
+            <div class="field">
+              <input class="form-big__tel dim" name="tel" type="tel" data-rule="required|phone"
+                placeholder="Your phone">
+              <!-- /.form-big__tel -->
+            </div>
+            <!-- /.field -->
+            <div class="field">
+              <textarea class="form-big__note" name="note" type="text" data-rule="required|note"
+                placeholder="Your message"></textarea>
+              <!-- /.form-big__message -->
+
+            </div>
+            <!-- /.field -->
+            <button class="form-big__button btn2" type="submit">Send</button>
+            <!-- /.form-big__button -->
+          </form>
+          <!-- /.form-big -->
+        </div>
+        <!-- /.form-fb__wrap -->
+        <div class="form-fb__wraper">
+          <div class="info">
+            <p class="info__namelink">Phone</p>
+            <!-- /.info__name-link -->
+            <a class="info__link" href="tel:+62 812 2345 678">+62 812 2345 678</a>
+            <!-- /.info__link -->
+            <p class="info__namelink">Email</p>
+            <!-- /.info__name-link -->
+            <a class="info__link" href="mailto:Flavamusicfest@mail.com">Flavamusicfest@mail.com</a>
+            <!-- /.info__link -->
+
+          </div>
+          <!-- /.info -->
+
+          <form class="form-small js-form-ajax" action="https://httpbin.org/post" id="form-small" method="POST"
+            enctype="multipart/form-data">
+            <p class="form-small__namefield">Keep In Touch</p>
+            <!-- /.info__name-field -->
+            <div class="field field--smal">
+              <input class="form-small__email dim" name="email" type="email" data-rule="required|email"
+                placeholder="Your Email">
+              <!-- /.form-small__email -->
+            </div>
+            <button class="form-small__button btn2" type="submit">Subscribe</button>
+            <!-- /.form-big__button -->
+          </form>
+          <!-- /.form-small -->
+          <nav class="soc-links">
+            <a href="#" class="soc-links__link">
+              <img class="soc-links__link-icon" src="../static/svg/icon-soc-inst.svg" alt="icon-link">
+            </a>
+            <!-- /.soc-links__link -->
+            <a href="#" class="soc-links__link">
+              <img class="soc-links__link-icon" src="../static/svg/icon-soc-youtube.svg" alt="icon-link">
+            </a>
+            <!-- /.soc-links__link -->
+            <a href="#" class="soc-links__link">
+              <img class="soc-links__link-icon" src="../static/svg/icon-soc-tik-tok.svg" alt="icon-link">
+            </a>
+            <!-- /.soc-links__link -->
+          </nav>
+          <!-- /.soc-link -->
+        </div>
+        <!-- /.form-fb__wrap -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.form-fb -->
+
+  </main>
+  <!-- /.intro -->
+  <footer class="foot">
+    <div class="container">
+      <div class="foot__wrap">
+        <div class="document">
+          <a href="" class="document__link">Terms & Conditions for Event</a>
+          <!-- /.document__link -->
+          <a href="" class="document__link">• Privacy Policy</a>
+          <!-- /.document__link -->
+          <a href="" class="document__link">•
+            Terms of Use</a>
+          <!-- /.document__link -->
+        </div>
+        <!-- /.document -->
+        <p class="copyright">Copyright © 2021 • Flava - Music Festival</p>
+        <!-- /.Copyright -->
+
+      </div>
+      <!-- /.main-foot__wrap -->
+    </div>
+    <!-- /.container -->
+  </footer>
+  <!-- /.main-foot -->
+  <script src="../static/js/main.js"></script>
+
+</body>
+
+</html>
