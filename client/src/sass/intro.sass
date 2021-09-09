@@ -1,0 +1,73 @@
+
+.intro
+  height: 100vh
+  overflow: hidden
+  position: relative
+  &:after
+    content: ''
+    display: block
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    background: rgba(0,0,0,0.4)
+    z-index: 2
+  &-info
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0px
+    left: 0px
+    z-index: 3
+    &__
+      &wrap
+        display: flex
+        flex-direction: column
+        align-items: center
+      &title
+        margin-top: 20vh
+        font-size: 36px
+        font-weight: 700
+        line-height: 133.69%
+        text-align: center
+        font-family: 'Poppins-bold', sans-serif
+      &text
+        margin: 3vh 0px
+        font-family: 'Poppins-medium', sans-serif
+        font-weight: 500
+        font-size: 14px
+        line-height: 133.69%
+        text-align: center
+
+.video
+  position: relative
+  width: 100%
+  height: 100vh
+  padding-bottom: 50%
+  z-index: 1
+  &__
+    position: relative
+    &media
+      display: block
+      width: 100%
+      height: 100%
+      position: absolute
+      top: 0px
+      left: 0px
+      object-fit: cover
+      object-position: center bottom
+      //z-index: 4
+    &cover
+      display: block
+      width: 100%
+      height: 100%
+      position: absolute
+      top: 0px
+      left: 0px
+      object-fit: cover
+      object-position: center bottom
+      z-index: 2
+
+.del
+  display: none
